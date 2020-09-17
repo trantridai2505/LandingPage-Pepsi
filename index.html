@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Pepsi Website Landing Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/bootstrap-337.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<section class="sec">
+		<header> <!-- header begin -->
+
+			<a href="#">
+				<img src="images/logo.png" class="logo">
+			</a>
+
+			<div class="toggleMenu" onclick="menuToggle();">
+			</div>
+
+			<ul class="navigation">
+				<li><a href="#" style="text-decoration: none;">Home</a></li>
+				<li><a href="#" style="text-decoration: none;">Products</a></li>
+				<li><a href="#" style="text-decoration: none;">What's New</a></li>
+				<li><a href="#" style="text-decoration: none;">Newsletter</a></li>
+				<li><a href="#" style="text-decoration: none;">Contact</a></li>
+			</ul>
+		</header><!-- /header finish -->
+
+		<div class="content"> <!-- content begin -->
+
+			<div class="textBox">
+				<h2>That's What<br><span>I like</span></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="#">View All Products</a>
+			</div>
+
+			<div class="imgBox">
+				<img src="images/pepsi001.png" class="pepsi">
+			</div>
+
+		</div> <!-- content finish -->
+
+		<ul class="thumb"> <!-- thumb begin -->
+			<li><img src="images/pepsi001.png" onclick="imgSlider('images/pepsi001.png');changeBgColor('#0062be')"></li>
+			<li><img src="images/pepsi002.png" onclick="imgSlider('images/pepsi002.png');changeBgColor('#e60c2c')"></li>
+			<li><img src="images/pepsi003.png" onclick="imgSlider('images/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+		</ul> <!-- thumb finish -->
+
+		<ul class="social"> <!-- social begin -->
+			<li>
+				<a href="#">
+					<img src="images/facebook.png">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/twitter.png">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="images/instagram.png">
+				</a>
+			</li>
+		</ul> <!-- social finish -->
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-337.min.css"></script>
+</body>
+</html>
